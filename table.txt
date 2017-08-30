@@ -1,0 +1,13 @@
+CREATE TABLE aerosol_d3
+(
+    sourceid integer DEFAULT 0, 
+    aqstime timestamp without time zone,
+    filename character(100),
+    path character(100),
+    corner geometry,
+    id bigserial NOT NULL,
+    updatetime timestamp without time zone,
+    collection smallint,
+    isdelete boolean DEFAULT false,
+    CONSTRAINT satorgmod04_pkey PRIMARY KEY (id)
+)

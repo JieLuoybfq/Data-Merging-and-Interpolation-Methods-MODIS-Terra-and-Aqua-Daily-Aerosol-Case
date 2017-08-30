@@ -1,1 +1,0 @@
-﻿UPDATE org.grdaeraot_data SET aod_550 = aod_500/exp(-solzen*LN(0.5/0.55))
